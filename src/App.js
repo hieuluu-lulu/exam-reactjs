@@ -103,7 +103,9 @@ function App() {
 						handleChangeCategories={handleChangeCategories}
 						setIsVisible={setIsVisible}
 						types={types}
+						setTypes={setTypes}
 						brands={brands}
+						params={params}
 					/>
 				</Sider>
 				<Layout style={{ padding: '0 12px 12px' }}>

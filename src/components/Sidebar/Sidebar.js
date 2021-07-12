@@ -1,8 +1,9 @@
 /** @format */
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Collapse, Button, Checkbox } from 'antd';
 import './style.scss';
+
 const { Panel } = Collapse;
 
 const mapMenu = (categories, handleChangeCategories) => {
@@ -37,6 +38,7 @@ const mapMenu = (categories, handleChangeCategories) => {
 const SideBar = ({
 	categories,
 	setParams,
+	params,
 	isVisible,
 	handleChangeCategories,
 	setCurrentCategory,
@@ -44,10 +46,22 @@ const SideBar = ({
 	types,
 	brands,
 }) => {
+	const [checked, setChecked] = useState(false);
 	const handleClearFilter = () => {
 		setParams({ _page: 1, _limit: 16 });
 		setCurrentCategory({});
 		setIsVisible(false);
+	};
+	const handleChangeType = (e) => {
+		if (e.target.checked) {
+			setParams({ ...params, q: e.target.value });
+			setIsVisible(true);
+		} else {
+			setParams({ ...params, q: '' });
+			setIsVisible(false);
+		}
+
+		// console.log(e.target.checked);
 	};
 	return (
 		<>
@@ -70,7 +84,10 @@ const SideBar = ({
 
 			{types.map((value, index) => (
 				<div className='sidebar__checkbox'>
-					<Checkbox value={value.type}>
+					<Checkbox
+						value={value.type}
+						onChange={handleChangeType}
+						key={index}>
 						{value.type}({value.quantity})
 					</Checkbox>
 				</div>
@@ -79,7 +96,7 @@ const SideBar = ({
 
 			{brands.map((value, index) => (
 				<div className='sidebar__checkbox'>
-					<Checkbox value={value.type}>
+					<Checkbox key={value.type}>
 						{value.type}({value.quantity})
 					</Checkbox>
 				</div>

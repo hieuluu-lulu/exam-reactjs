@@ -1,0 +1,6 @@
+/** @format */
+
+export const Types = {
+	GET_ALL_PRODUCT: 'GET_ALL_PRODUCT',
+	GET_PRODUCT_CATEGORIES: 'GET_PRODUCT_CATEGORIES',
+};

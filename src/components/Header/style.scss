@@ -1,0 +1,25 @@
+/** @format */
+
+.header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	&__logo {
+		display: flex;
+		align-items: center;
+		img {
+			width: 40px;
+			height: 40px;
+		}
+		a {
+			font-size: 30px;
+			color: #fff;
+			margin-left: 10px;
+			font-weight: 500;
+		}
+	}
+}

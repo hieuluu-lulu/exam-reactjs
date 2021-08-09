@@ -1,0 +1,73 @@
+/** @format */
+
+.sidebar {
+	padding-bottom: 20px;
+	&__heading {
+		font-size: 18px;
+		color: rgb(117, 115, 115);
+		margin-left: 20px;
+		padding-top: 30px;
+	}
+	&__types {
+		font-size: 18px;
+		color: rgb(117, 115, 115);
+		margin-left: 20px;
+		margin-top: 10px;
+	}
+	&__list {
+		font-size: 15px;
+
+		&:hover {
+			color: rgb(75, 56, 247);
+		}
+	}
+	&__type {
+		font-size: 16px;
+		padding-left: 20px;
+		font-weight: 500;
+	}
+	&__checkbox {
+		padding-left: 20px;
+	}
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+	padding-top: 5px !important;
+	padding-bottom: 0px !important;
+}
+.price-item {
+	padding-left: 20px;
+	font-size: 14px;
+	cursor: pointer;
+
+	&:hover {
+		color: rgb(75, 56, 247);
+	}
+}
+.price-item.active {
+	color: rgb(75, 56, 247);
+	text-decoration: underline;
+	font-weight: 600;
+}
+.rating {
+	font-size: 16px !important;
+	padding-left: 20px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	&__star {
+		font-size: 14px !important;
+		margin-right: 5px;
+	}
+}
+.rating.active {
+	font-weight: 600;
+	font-size: 20px;
+	color: rgb(75, 56, 247);
+}
+.input-price {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	padding: 20px;
+}

@@ -1,0 +1,250 @@
+{
+  "users": [
+    {
+      "email": "hieulvtgcd17213@fpt.edu.vn",
+      "password": "$2a$10$4D82BIWNBp4eQzsbocGZlu3FBnhi2F2X.sMrxyGvLp3kM2/relKGG",
+      "firstname": "Lưu",
+      "lastname": "Hiếu",
+      "role": "user",
+      "createdAt": 1631612233676,
+      "updatedAt": 1631612233676,
+      "id": 1
+    },
+    {
+      "email": "liennhi@gmail.com",
+      "password": "$2a$10$jKcwujIgN8NwNAPegdQsxuFTEx4BGPVyjFSGJKRecRncZbjfLrDAi",
+      "firstname": "Liên",
+      "lastname": "Nhi",
+      "role": "user",
+      "createdAt": 1631635369465,
+      "updatedAt": 1631635369466,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy A32",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/234315/samsung-galaxy-a32-4g-xanh-1-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/234315/samsung-galaxy-a32-4g-xanh-5-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/234315/samsung-galaxy-a32-4g-xanh-10-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/234315/samsung-galaxy-a32-4g-xanh-4-org.jpg"
+      ],
+      "cpu": "Mediatek Helio G80",
+      "price": 669000,
+      "optionId": 4,
+      "new": true,
+      "sale": false,
+      "brandId": 1
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi Mi 11",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-xanhduong-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-xanhduong-1-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-xanhduong-5-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-xanhduong-11-org.jpg"
+      ],
+      "cpu": "Qualcomm Snapdragon 888 5G",
+      "price": 16900000,
+      "optionId": 7,
+      "new": false,
+      "sale": true,
+      "brandId": 3
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi Mi 10s",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/220117/xiaomi-mi-10s6.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/220117/xiaomi-mi-10s7.jpg"
+      ],
+      "cpu": "Qualcomm Snapdragon 870 5G",
+      "price": 13900000,
+      "optionId": 6,
+      "new": false,
+      "sale": true,
+      "brandId": 3
+    },
+    {
+      "id": 4,
+      "name": "OPPO Reno6 Z 5G",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/239747/oppo-reno6-z-5g-bac-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/239747/oppo-reno6-z-5g-bac-5-org.jpg"
+      ],
+      "cpu": "MediaTek Dimensity 800U 5G",
+      "price": 9490000,
+      "optionId": 5,
+      "new": true,
+      "sale": false,
+      "brandId": 8
+    },
+    {
+      "id": 5,
+      "name": "Realme 8 Pro",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/241017/realme-8-pro--vang-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/241017/realme-8-pro--vang-5-org.jpg"
+      ],
+      "cpu": "MediaTek Dimensity 800U 5G",
+      "price": 9490000,
+      "optionId": 4,
+      "new": true,
+      "sale": false,
+      "brandId": 5
+    },
+    {
+      "id": 6,
+      "name": "Xiaomi Redmi note 10 Pro",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/229228/xiaomi-redmi-note-10-pro-xam-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/229228/xiaomi-redmi-note-10-pro-xam-5-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/229228/xiaomi-redmi-note-10-pro-5-2-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/229228/xiaomi-redmi-note-10-pro-5-1-org.jpg"
+      ],
+      "cpu": "Qualcomm Snapdragon 732G",
+      "price": 6490000,
+      "optionId": 5,
+      "new": false,
+      "sale": false,
+      "brandId": 3
+    },
+    {
+      "id": 7,
+      "name": "Iphone 12",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-xanh-duong-4-1-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-xanh-duong-5-1-org.jpgs"
+      ],
+      "cpu": "Apple Bionic A14",
+      "price": 20490000,
+      "optionId": 6,
+      "new": false,
+      "sale": false,
+      "brandId": 2
+    },
+    {
+      "id": 8,
+      "name": "Iphone 12 Pro Max",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/213033/iphone-12-pro-max-xanh-duong-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/213033/iphone-12-pro-max-xanh-duong-5-org.jpg"
+      ],
+      "cpu": "Apple Bionic A14",
+      "price": 29490000,
+      "optionId": 7,
+      "new": false,
+      "sale": false,
+      "brandId": 2
+    },
+    {
+      "id": 9,
+      "name": "Iphone 11 ",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/213033/iphone-12-pro-max-xanh-duong-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/213033/iphone-12-pro-max-xanh-duong-5-org.jpg"
+      ],
+      "cpu": "Apple Bionic A13",
+      "price": 14900000,
+      "optionId": 6,
+      "new": false,
+      "sale": false,
+      "brandId": 2
+    }
+  ],
+  "brand": [
+    {
+      "id": 1,
+      "brand": "Samsung"
+    },
+    {
+      "id": 2,
+      "brand": "Apple"
+    },
+    {
+      "id": 3,
+      "brand": "Xiaomi"
+    },
+    {
+      "id": 4,
+      "brand": "Vivo"
+    },
+    {
+      "id": 5,
+      "brand": "Realme"
+    },
+    {
+      "id": 6,
+      "brand": "One Plus+"
+    },
+    {
+      "id": 7,
+      "brand": "Nokia"
+    },
+    {
+      "id": 8,
+      "brand": "Oppo"
+    }
+  ],
+  "options": [
+    {
+      "id": 1,
+      "ram": "3GB",
+      "color": ["White", "Blue", "Black"],
+      "storage": "32GB",
+      "price": 0
+    },
+    {
+      "id": 2,
+      "ram": "4GB",
+      "color": ["White", "Blue", "Black", "Gray", "Yellow"],
+      "storage": "64GB",
+      "price": 100000
+    },
+    {
+      "id": 3,
+      "ram": "6GB",
+      "color": ["White", "Blue", "Black", "Red", "Pink", "Yellow"],
+      "storage": "64GB",
+      "price": 150000
+    },
+    {
+      "id": 4,
+      "ram": "6GB",
+      "color": ["White", "Gray", "Black"],
+      "storage": "128GB",
+      "price": 200000
+    },
+    {
+      "id": 5,
+      "ram": "6GB",
+      "color": ["White", "Gray", "Black", "Blue", "Green"],
+      "storage": "256GB",
+      "price": 250000
+    },
+    {
+      "id": 6,
+      "ram": "8GB",
+      "color": ["White", "Blue", "Black", "Red", "Yellow"],
+      "storage": "128GB",
+      "price": 180000
+    },
+    {
+      "id": 7,
+      "ram": "8GB",
+      "color": ["White", "Blue", "Black", "Red", "Green", "Purple"],
+      "storage": "256GB",
+      "price": 300000
+    },
+    {
+      "id": 8,
+      "ram": "8GB",
+      "color": ["White", "Blue", "Black", "Pink", "Green", "Aqua", "Silver"],
+      "storage": "512GB",
+      "price": 350000
+    }
+  ]
+}

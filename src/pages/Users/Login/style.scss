@@ -1,0 +1,50 @@
+/** @format */
+@import '../../../assets/scss/variable.scss';
+.login {
+	padding: 2rem 4rem;
+	margin: 2rem 0;
+	font-size: 1.5rem;
+	border: 1px solid $border-color;
+	border-radius: 0.5rem;
+}
+
+.login-form {
+	&__icon {
+		text-align: center;
+		font-size: 3rem;
+	}
+	&__title {
+		text-align: center;
+		font-size: 3rem;
+		text-transform: uppercase;
+	}
+	.form-login__btn {
+		width: 100%;
+		border-radius: 5rem;
+		border-color: $primary-color;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 2rem;
+		font-size: 1.6rem;
+		font-weight: 600;
+		& > svg {
+			color: $text-color;
+			font-size: 2rem;
+		}
+		&:hover {
+			background-color: $primary-color;
+		}
+		&:hover > span {
+			color: $text-white;
+		}
+		&:hover > svg {
+			color: $text-white;
+		}
+
+		&--icon {
+			font-size: 1.6rem;
+			margin-right: 1rem;
+		}
+	}
+}

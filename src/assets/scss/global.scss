@@ -1,0 +1,32 @@
+/** @format */
+
+html {
+	font-size: 62.5%;
+	font-family: $primary-font !important;
+	// font-size: 1.6rem;
+}
+*,
+*:after,
+*::before {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+input,
+textarea,
+select,
+option,
+button {
+	border: none;
+	outline: none !important;
+	background-color: transparent;
+}
+
+.container {
+	width: 100%;
+}
+.grid {
+	max-width: 1200px;
+	margin: 0 auto;
+}

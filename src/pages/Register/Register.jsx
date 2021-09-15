@@ -7,12 +7,12 @@ import { SiGnuprivacyguard } from 'react-icons/si';
 import './style.scss';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { authActions } from '../../../features/auth/authSlice';
+import { registerAction } from '../../redux/actions';
 export default function Signup() {
   const [form] = Form.useForm();
   const dispatch = useDispatch();
   const handleSubmit = (values) => {
-    dispatch(authActions.signUp(values));
+    dispatch(registerAction(values));
   };
 
   return (

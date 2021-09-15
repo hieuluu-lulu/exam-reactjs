@@ -50,7 +50,7 @@
       "cpu": "Qualcomm Snapdragon 888 5G",
       "price": 16900000,
       "optionId": 7,
-      "new": false,
+      "new": true,
       "sale": true,
       "brandId": 3
     },
@@ -109,7 +109,7 @@
       "price": 6490000,
       "optionId": 5,
       "new": false,
-      "sale": false,
+      "sale": true,
       "brandId": 3
     },
     {
@@ -123,7 +123,7 @@
       "price": 20490000,
       "optionId": 6,
       "new": false,
-      "sale": false,
+      "sale": true,
       "brandId": 2
     },
     {
@@ -151,11 +151,236 @@
       "price": 14900000,
       "optionId": 6,
       "new": false,
-      "sale": false,
+      "sale": true,
       "brandId": 2
+    },
+    {
+      "id": 10,
+      "name": "Iphone 11 Pro Max ",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-mau-bac-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-mau-bac-5-org.jpg"
+      ],
+      "cpu": "Apple Bionic A13",
+      "price": 17900000,
+      "optionId": 6,
+      "new": false,
+      "sale": true,
+      "brandId": 2
+    },
+    {
+      "id": 11,
+      "name": "Samsung Galaxy S21 5G",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/220833/samsung-galaxy-s21-tim-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/220833/samsung-galaxy-s21-tim-5-org.jpg"
+      ],
+      "cpu": "Exynos 2100",
+      "price": 17990000,
+      "optionId": 6,
+      "new": true,
+      "sale": true,
+      "brandId": 1
+    },
+    {
+      "id": 12,
+      "name": "Samsung Galaxy S21 Ultra 5G",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/226316/samsung-galaxy-s21-ultra-bac-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/226316/samsung-galaxy-s21-ultra-bac-5-org.jpg"
+      ],
+      "cpu": "Exynos 2100",
+      "price": 25990000,
+      "optionId": 6,
+      "new": true,
+      "sale": true,
+      "brandId": 1
+    },
+    {
+      "id": 13,
+      "name": "Samsung Galaxy ZFold 3 5G",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/226316/samsung-galaxy-s21-ultra-bac-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/226316/samsung-galaxy-s21-ultra-bac-5-org.jpg"
+      ],
+      "cpu": "Qualcomm Snapdragon 888",
+      "price": 44000000,
+      "optionId": 9,
+      "new": true,
+      "sale": false,
+      "brandId": 1
+    },
+    {
+      "id": 14,
+      "name": "Samsung Galaxy ZFlip 3 5G",
+      "img": [
+        "https://cdn.tgdd.vn/2021/08/campaign/ZFlip2-800x450.jpg",
+        "https://cdn.tgdd.vn/2021/08/campaign/ZFlip3-800x450.jpg",
+        "https://cdn.tgdd.vn/2021/08/campaign/Zflip1-640x640.png"
+      ],
+      "cpu": "Qualcomm Snapdragon 888",
+      "price": 24000000,
+      "optionId": 8,
+      "new": true,
+      "sale": false,
+      "brandId": 1
+    },
+    {
+      "id": 15,
+      "name": "Oppo Reno 6 5G",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/236186/oppo-reno6-bac-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/236186/oppo-reno6-bac-5-org.jpg"
+      ],
+      "cpu": "Mediatek Demensity 900",
+      "price": 12490000,
+      "optionId": 5,
+      "new": true,
+      "sale": false,
+      "brandId": 8
+    },
+    {
+      "id": 16,
+      "name": "Oppo Reno FindX3 Pro",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/232190/oppo-find-x3-pro-den-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/232190/oppo-find-x3-pro-den-5-org.jpg"
+      ],
+      "cpu": "Snapdragon 888",
+      "price": 26500000,
+      "optionId": 6,
+      "new": true,
+      "sale": false,
+      "brandId": 8
+    },
+    {
+      "id": 17,
+      "name": "Oppo Reno 5 5G",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/233460/oppo-reno5-den-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/233460/oppo-reno5-den-5-org.jpg"
+      ],
+      "cpu": "Snapdragon 765G",
+      "price": 10450000,
+      "optionId": 6,
+      "new": true,
+      "sale": false,
+      "brandId": 8
+    },
+    {
+      "id": 18,
+      "name": "Xiaomi Mi Mix 4",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/197810/xiaomi-mi-mix-4-16.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/197810/xiaomi-mi-mix-4-18.jpg"
+      ],
+      "cpu": "Snapdragon 888+",
+      "price": 21990000,
+      "optionId": 7,
+      "new": true,
+      "sale": false,
+      "brandId": 3
+    },
+    {
+      "id": 19,
+      "name": "Realme GT Neo",
+      "img": [
+        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/realme-gt-neo-hop-pk.jpg",
+        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/realme-gt-neo-hop.jpg"
+      ],
+      "cpu": "Dimensity 1200",
+      "price": 6450000,
+      "optionId": 4,
+      "new": true,
+      "sale": false,
+      "brandId": 5
+    },
+    {
+      "id": 20,
+      "name": "Realme Q3 Pro",
+      "img": [
+        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/realme-gt-neo-hop-pk.jpg",
+        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/realme-gt-neo-hop.jpg"
+      ],
+      "cpu": "Dimensity 1200",
+      "price": 5450000,
+      "optionId": 4,
+      "new": true,
+      "sale": false,
+      "brandId": 5
+    },
+    {
+      "id": 21,
+      "name": "Realme GT Master Explorer Edition",
+      "img": [
+        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/08/realme-gt-master-explorer-12.jpeg",
+        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/08/realme-gt-master-explorer-3.jpeg"
+      ],
+      "cpu": "Snapdragon 870",
+      "price": 10450000,
+      "optionId": 5,
+      "new": true,
+      "sale": false,
+      "brandId": 5
+    },
+    {
+      "id": 22,
+      "name": "One Plus 8",
+      "img": [
+        "https://fptshop.com.vn/Uploads/Originals/2020/2/11/637170293625998339_oneplus-8-1.png",
+        "https://cdn.tgdd.vn/Files/2020/04/15/1249254/oneplus-8-interstellar-glow-back-5_800x480.jpg"
+      ],
+      "cpu": "Snapdragon 65",
+      "price": 8750000,
+      "optionId": 4,
+      "new": true,
+      "sale": false,
+      "brandId": 6
+    },
+    {
+      "id": 23,
+      "name": "One Plus 9",
+      "img": [
+        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/oneplus-9-tim.jpg",
+        "https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/uploads/images/tin-tuc/133263/Originals/tren-tay-oneplus-9-01.jpg"
+      ],
+      "cpu": "Snapdragon 888",
+      "price": 12550000,
+      "optionId": 6,
+      "new": true,
+      "sale": false,
+      "brandId": 6
+    },
+    {
+      "id": 24,
+      "name": "Vivo V21 5G",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/238047/vivo-v21-5g-xanh-den-4-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/238047/vivo-v21-5g-xanh-den-5-org.jpg"
+      ],
+      "cpu": " Dimensity 800U 5G",
+      "price": 9450000,
+      "optionId": 4,
+      "new": false,
+      "sale": true,
+      "brandId": 4
+    },
+    {
+      "id": 25,
+      "name": "Nokia 3.4",
+      "img": [
+        "https://cdn.tgdd.vn/Products/Images/42/227626/nokia-34-4-1-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/227626/nokia-34-5-1-org.jpg"
+      ],
+      "cpu": "Snapdragon 460",
+      "price": 2790000,
+      "optionId": 3,
+      "new": true,
+      "sale": false,
+      "brandId": 7
     }
   ],
-  "brand": [
+  "brands": [
     {
       "id": 1,
       "brand": "Samsung"
@@ -202,49 +427,56 @@
       "ram": "4GB",
       "color": ["White", "Blue", "Black", "Gray", "Yellow"],
       "storage": "64GB",
-      "price": 100000
+      "price": 0
     },
     {
       "id": 3,
       "ram": "6GB",
       "color": ["White", "Blue", "Black", "Red", "Pink", "Yellow"],
       "storage": "64GB",
-      "price": 150000
+      "price": 0
     },
     {
       "id": 4,
       "ram": "6GB",
       "color": ["White", "Gray", "Black"],
       "storage": "128GB",
-      "price": 200000
+      "price": 100000
     },
     {
       "id": 5,
       "ram": "6GB",
       "color": ["White", "Gray", "Black", "Blue", "Green"],
       "storage": "256GB",
-      "price": 250000
+      "price": 200000
     },
     {
       "id": 6,
       "ram": "8GB",
       "color": ["White", "Blue", "Black", "Red", "Yellow"],
       "storage": "128GB",
-      "price": 180000
+      "price": 250000
     },
     {
       "id": 7,
       "ram": "8GB",
       "color": ["White", "Blue", "Black", "Red", "Green", "Purple"],
       "storage": "256GB",
-      "price": 300000
+      "price": 320000
     },
     {
       "id": 8,
       "ram": "8GB",
       "color": ["White", "Blue", "Black", "Pink", "Green", "Aqua", "Silver"],
       "storage": "512GB",
-      "price": 350000
+      "price": 380000
+    },
+    {
+      "id": 9,
+      "ram": "12GB",
+      "color": ["White", "Blue", "Black", "Pink", "Green", "Aqua", "Silver"],
+      "storage": "512GB",
+      "price": 450000
     }
   ]
 }

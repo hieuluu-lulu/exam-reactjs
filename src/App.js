@@ -28,12 +28,12 @@ function App() {
           <PublicLayout
             exact
             path="/login"
-            component={React.lazy(() => import('./pages/Users/Login/Login'))}
+            component={React.lazy(() => import('./pages/Login/Login'))}
           ></PublicLayout>
           <PublicLayout
             exact
             path="/register"
-            component={React.lazy(() => import('./pages/Users/Register/Register'))}
+            component={React.lazy(() => import('./pages/Register/Register'))}
           ></PublicLayout>
           \
           <PublicLayout

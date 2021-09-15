@@ -1,11 +1,11 @@
 /** @format */
 
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
-import authReducer from '../features/auth/authSlice';
 import createSagaMiddleware from 'redux-saga';
 import { connectRouter, routerMiddleware } from 'connected-react-router';
-import rootSaga from '../saga';
 import { history } from '../utils/history';
+import authReducer from '../redux/reducers/auth.reducer';
+import rootSaga from '../redux/sagas';
 const sagaMiddleware = createSagaMiddleware();
 const rootReducer = combineReducers({
   auth: authReducer,

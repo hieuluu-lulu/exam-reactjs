@@ -8,13 +8,13 @@ import './style.scss';
 import { Link } from 'react-router-dom';
 
 import { useDispatch } from 'react-redux';
-import { authActions } from '../../../features/auth/authSlice';
+import { loginAction } from '../../redux/actions';
 
 export default function Login() {
   const [form] = Form.useForm();
   const dispatch = useDispatch();
   const handleSubmit = (values) => {
-    dispatch(authActions.login(values));
+    dispatch(loginAction(values));
   };
   return (
     <>

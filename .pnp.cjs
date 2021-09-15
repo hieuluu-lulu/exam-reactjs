@@ -60,6 +60,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-router", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:5.2.1"],
             ["react-router-dom", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:5.3.0"],
             ["react-scripts", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:4.0.3"],
+            ["react-slick", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:0.28.1"],
             ["react-toastify", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:8.0.2"],
             ["redux-saga", "npm:1.1.3"],
             ["sass", "npm:1.40.1"],
@@ -9890,6 +9891,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["enquire.js", [
+        ["npm:2.1.6", {
+          "packageLocation": "./.yarn/cache/enquire.js-npm-2.1.6-fc4ea2e583-bb094054ee.zip/node_modules/enquire.js/",
+          "packageDependencies": [
+            ["enquire.js", "npm:2.1.6"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["enquirer", [
         ["npm:2.3.6", {
           "packageLocation": "./.yarn/cache/enquirer-npm-2.3.6-7899175762-1c0911e14a.zip/node_modules/enquirer/",
@@ -14619,6 +14629,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["lodash.debounce", [
+        ["npm:4.0.8", {
+          "packageLocation": "./.yarn/cache/lodash.debounce-npm-4.0.8-f1d6e09799-a3f527d22c.zip/node_modules/lodash.debounce/",
+          "packageDependencies": [
+            ["lodash.debounce", "npm:4.0.8"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["lodash.includes", [
         ["npm:4.3.0", {
           "packageLocation": "./.yarn/cache/lodash.includes-npm-4.3.0-3a2f6fa22c-71092c1305.zip/node_modules/lodash.includes/",
@@ -16667,6 +16686,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-router", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:5.2.1"],
             ["react-router-dom", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:5.3.0"],
             ["react-scripts", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:4.0.3"],
+            ["react-slick", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:0.28.1"],
             ["react-toastify", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:8.0.2"],
             ["redux-saga", "npm:1.1.3"],
             ["sass", "npm:1.40.1"],
@@ -19530,6 +19550,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/typescript",
             "react",
             "typescript"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["react-slick", [
+        ["npm:0.28.1", {
+          "packageLocation": "./.yarn/cache/react-slick-npm-0.28.1-c38d7b328a-399ad43b9e.zip/node_modules/react-slick/",
+          "packageDependencies": [
+            ["react-slick", "npm:0.28.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:0.28.1", {
+          "packageLocation": "./.yarn/__virtual__/react-slick-virtual-6f58979b70/0/cache/react-slick-npm-0.28.1-c38d7b328a-399ad43b9e.zip/node_modules/react-slick/",
+          "packageDependencies": [
+            ["react-slick", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:0.28.1"],
+            ["@types/react", null],
+            ["@types/react-dom", null],
+            ["classnames", "npm:2.3.1"],
+            ["enquire.js", "npm:2.1.6"],
+            ["json2mq", "npm:0.2.0"],
+            ["lodash.debounce", "npm:4.0.8"],
+            ["react", "npm:17.0.2"],
+            ["react-dom", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:17.0.2"],
+            ["resize-observer-polyfill", "npm:1.5.1"]
+          ],
+          "packagePeers": [
+            "@types/react-dom",
+            "@types/react",
+            "react-dom",
+            "react"
           ],
           "linkType": "HARD",
         }]

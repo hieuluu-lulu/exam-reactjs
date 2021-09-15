@@ -1,8 +1,10 @@
 /** @format */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Carousel } from 'antd';
 import './style.scss';
+import { useDispatch } from 'react-redux';
+import { getProductSale } from '../../../redux/actions';
 export default function HomePage() {
   const imgSlide = [
     'https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/oneplus-8-mobilecity.jpg',
@@ -20,7 +22,10 @@ export default function HomePage() {
       </Carousel>
     );
   };
-
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getProductSale());
+  }, [dispatch]);
   return (
     <div className="home">
       <Carousels />

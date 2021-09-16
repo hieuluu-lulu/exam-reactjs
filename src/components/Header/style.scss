@@ -1,62 +1,153 @@
 /** @format */
 @import '../../assets/scss/index.scss';
 .header {
-	background-color: $gray;
-	&__nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding: 2rem 0;
-		width: 100%;
+  background-color: $gray;
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    width: 100%;
 
-		&-logo {
-			width: 5rem;
-			height: 5rem;
-			img {
-				width: 100%;
-				height: 100%;
-				-o-object-fit: cover;
-				object-fit: cover;
-			}
-		}
+    &-logo {
+      width: 5rem;
+      height: 5rem;
+      img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+      }
+    }
 
-		&-menu {
-			display: flex;
-			justify-content: space-between;
-			margin: 0 2rem;
+    &-menu {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 2rem;
 
-			.menu__item {
-				padding: 1.5rem;
-				cursor: pointer;
-				text-transform: uppercase;
-				color: $text-color;
-				font-weight: 600;
-				font-size: 1.6rem;
-				&:hover {
-					color: $blue;
-				}
-			}
-			.active {
-				color: $blue;
-			}
-		}
-		&-user {
-			font-size: 1.5rem;
+      .menu__item {
+        padding: 1.5rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: $text-color;
+        font-weight: 600;
+        font-size: 1.6rem;
+        &:hover {
+          color: $blue;
+        }
+      }
+      .active {
+        color: $blue;
+      }
+    }
 
-			.user__btn {
-				padding: 0.6rem 1.5rem;
-				margin: 0 1rem;
-				color: $text-color;
-				cursor: pointer;
-				border-radius: 3px;
-				transition: all 0.35s linear;
-				font-weight: 600;
+    &-cart {
+      .cart__icon {
+        font-size: 2.2rem;
+        cursor: pointer;
+      }
+      .cart__number {
+        display: inline-block;
+        position: relative;
+        top: -1.5rem;
+        right: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+        background: $light-blue;
+        color: $text-white;
+        text-align: center;
+        border-radius: 50%;
+      }
+    }
+    &-user {
+      font-size: 1.5rem;
 
-				&:hover {
-					background-color: $light-blue;
-					color: $text-white;
-				}
-			}
-		}
-	}
+      .user__btn {
+        padding: 0.6rem 1.5rem;
+        margin: 0 1rem;
+        color: $text-color;
+        cursor: pointer;
+        border-radius: 3px;
+        transition: all 0.35s linear;
+        font-weight: 600;
+
+        &:hover {
+          background-color: $light-blue;
+          color: $text-white;
+        }
+      }
+    }
+  }
+}
+.cart-drawer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+
+  &__product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-img {
+      width: 10rem;
+      margin-right: 2rem;
+    }
+
+    &-desc {
+      font-size: 1.3rem;
+
+      .desc__title {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        margin: 0;
+      }
+      .desc__price {
+        display: block;
+        margin-bottom: 1rem;
+      }
+      .desc__quantity-number {
+        margin: 0 1rem;
+      }
+    }
+  }
+
+  &__delete {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  &__empty {
+    text-align: center;
+    font-size: 1.8rem;
+
+    p {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      color: $light-red;
+    }
+  }
+}
+.drawer-footer {
+  padding: 1rem;
+  &__total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    &-text {
+      font-size: 2.6rem;
+      font-weight: 600;
+    }
+
+    &-price {
+      font-size: 3.2rem;
+      color: $primary-color;
+      font-weight: 600;
+    }
+  }
+  &__btn {
+    background-color: $primary-color;
+    color: $text-white;
+  }
 }

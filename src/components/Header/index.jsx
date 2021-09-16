@@ -1,14 +1,23 @@
 /** @format */
 
-import React from 'react';
+import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
-import { Avatar, Row, Menu, Dropdown, Typography } from 'antd';
+import { Avatar, Row, Menu, Dropdown, Typography, Drawer, Button } from 'antd';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import { Input } from 'antd';
 import logo from '../../assets/images/logo-full.svg';
 import { useSelector, useDispatch } from 'react-redux';
 import './style.scss';
 import { logoutAction } from '../../redux/actions';
+import { FaShoppingCart } from 'react-icons/fa';
+import empty from '../../assets/images/empty-cart.jpg';
+import {
+  MinusOutlined,
+  PlusOutlined,
+  DeleteOutlined,
+  ShoppingCartOutlined,
+} from '@ant-design/icons';
+import { deleteCart, updateCart } from '../../redux/actions/cart.action';
 const { Search } = Input;
 export default function Header() {
   const location = useLocation();
@@ -16,6 +25,8 @@ export default function Header() {
   const dispatch = useDispatch();
   const isLogin = useSelector((state) => state.auth.isLoggedIn);
   const user = useSelector((state) => state.auth.user);
+  const [visible, setVisible] = useState(false);
+  const productCart = useSelector((state) => state.cart);
   const navMenu = [
     {
       id: 1,
@@ -37,11 +48,6 @@ export default function Header() {
       name: 'Checkout',
       path: '/payment',
     },
-    {
-      id: 5,
-      name: 'Contact',
-      path: '/contact',
-    },
   ];
   const onSearch = (value) => {
     console.log(value);
@@ -53,6 +59,19 @@ export default function Header() {
       position: toast.POSITION.TOP_RIGHT,
       theme: 'colored',
     });
+  };
+
+  const handleUpQuantity = (item) => {
+    const type = 'increase';
+    dispatch(updateCart({ type, item }));
+  };
+  const handleDownQuantity = (item) => {
+    const type = 'decrease';
+    dispatch(updateCart({ type, item }));
+  };
+
+  const deleteCartProduct = (item) => {
+    dispatch(deleteCart(item));
   };
 
   const menu = (
@@ -98,6 +117,67 @@ export default function Header() {
               {item.name}
             </Link>
           ))}
+        </div>
+        <div className="header__nav-cart">
+          <FaShoppingCart className="cart__icon" onClick={() => setVisible(true)} />
+          <span className="cart__number">{productCart?.cartNumber}</span>
+          <Drawer
+            title="My Cart"
+            width={420}
+            placement="right"
+            closable={false}
+            onClose={() => setVisible(false)}
+            visible={visible}
+            getContainer={false}
+            footer={
+              <div className="drawer-footer">
+                <div className="drawer-footer__total">
+                  <span className="drawer-footer__total-text">Total</span>
+                  <span className="drawer-footer__total-price">
+                    {`${productCart?.totalCost.toLocaleString('vi-VN')} VNĐ`}
+                  </span>
+                </div>
+                <Link to="/cart" onClick={() => setVisible(false)}>
+                  <Button
+                    shape="round"
+                    icon={<ShoppingCartOutlined />}
+                    size="large"
+                    className="drawer-footer__btn"
+                  >
+                    Cart
+                  </Button>
+                </Link>
+              </div>
+            }
+          >
+            {productCart?.cartData.length > 0 ? (
+              productCart?.cartData.map((item, index) => (
+                <div className="cart-drawer" key={item.id + index}>
+                  <div className="cart-drawer__product">
+                    <img src={item?.img[0]} alt={item.name} className="cart-drawer__product-img" />
+                    <div className="cart-drawer__product-desc">
+                      <h3 className="desc__title">{item.name}</h3>
+                      <span className="desc__price">{item.price.toLocaleString('vi-VN')}</span>
+                      <div className="desc__quantity">
+                        <Button icon={<MinusOutlined />} onClick={() => handleDownQuantity(item)} />
+                        <span className="desc__quantity-number">{item.quantity}</span>
+                        <Button icon={<PlusOutlined />} onClick={() => handleUpQuantity(item)} />
+                      </div>
+                    </div>
+                  </div>
+                  <DeleteOutlined
+                    className="cart-drawer__delete"
+                    onClick={() => deleteCartProduct(item)}
+                  />
+                </div>
+              ))
+            ) : (
+              <div className="cart-drawer__empty">
+                <img src={empty} alt="empty-cart" style={{ width: '100%' }} />
+                <p>Your's cart is currently empty</p>
+              </div>
+            )}
+          </Drawer>
         </div>
         <div className="header__nav-user">
           {!isLogin ? (

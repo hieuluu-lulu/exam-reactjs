@@ -17,6 +17,21 @@ function* getProductSale() {
   }
 }
 
+function* getProductNew() {
+  try {
+    const data = yield api.getProductNew();
+    yield put({
+      type: SUCCESS(PRODUCT_TYPES.GET_PRODUCT_NEW),
+      payload: data,
+    });
+  } catch (error) {
+    yield put({
+      type: FAILURE(PRODUCT_TYPES.GET_PRODUCT_NEW),
+      payload: error.response.data,
+    });
+  }
+}
 export default function* productSaga() {
   yield takeLeading(REQUEST(PRODUCT_TYPES.GET_PRODUCT_SALE), getProductSale);
+  yield takeLeading(REQUEST(PRODUCT_TYPES.GET_PRODUCT_NEW), getProductNew);
 }

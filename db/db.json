@@ -32,10 +32,12 @@
         "https://cdn.tgdd.vn/Products/Images/42/234315/samsung-galaxy-a32-4g-xanh-4-org.jpg"
       ],
       "cpu": "Mediatek Helio G80",
-      "price": 669000,
+      "price": 6690000,
+      "oldPrice": 0,
       "optionId": 4,
-      "new": true,
+      "news": true,
       "sale": false,
+      "rate": 4,
       "brandId": 1
     },
     {
@@ -48,11 +50,13 @@
         "https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-xanhduong-11-org.jpg"
       ],
       "cpu": "Qualcomm Snapdragon 888 5G",
-      "price": 16900000,
+      "price": 16450000,
+      "oldPrice": 16990000,
       "optionId": 7,
-      "new": true,
+      "news": true,
       "sale": true,
-      "brandId": 3
+      "brandId": 3,
+      "rate": 4
     },
     {
       "id": 3,
@@ -63,9 +67,11 @@
       ],
       "cpu": "Qualcomm Snapdragon 870 5G",
       "price": 13900000,
+      "oldPrice": 14050000,
       "optionId": 6,
-      "new": false,
+      "news": false,
       "sale": true,
+      "rate": 4,
       "brandId": 3
     },
     {
@@ -77,9 +83,11 @@
       ],
       "cpu": "MediaTek Dimensity 800U 5G",
       "price": 9490000,
+      "oldPrice": 0,
       "optionId": 5,
-      "new": true,
+      "news": true,
       "sale": false,
+      "rate": 4,
       "brandId": 8
     },
     {
@@ -91,9 +99,11 @@
       ],
       "cpu": "MediaTek Dimensity 800U 5G",
       "price": 9490000,
+      "oldPrice": 0,
       "optionId": 4,
-      "new": true,
+      "news": true,
       "sale": false,
+      "rate": 3,
       "brandId": 5
     },
     {
@@ -107,24 +117,28 @@
       ],
       "cpu": "Qualcomm Snapdragon 732G",
       "price": 6490000,
+      "oldPrice": 6990000,
       "optionId": 5,
-      "new": false,
+      "news": false,
       "sale": true,
-      "brandId": 3
+      "brandId": 3,
+      "rate": 5
     },
     {
       "id": 7,
       "name": "Iphone 12",
       "img": [
         "https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-xanh-duong-4-1-org.jpg",
-        "https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-xanh-duong-5-1-org.jpgs"
+        "https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-xanh-duong-5-1-org.jpg"
       ],
       "cpu": "Apple Bionic A14",
       "price": 20490000,
+      "oldPrice": 21050000,
       "optionId": 6,
-      "new": false,
+      "news": false,
       "sale": true,
-      "brandId": 2
+      "brandId": 2,
+      "rate": 4
     },
     {
       "id": 8,
@@ -135,9 +149,11 @@
       ],
       "cpu": "Apple Bionic A14",
       "price": 29490000,
+      "oldPrice": 0,
       "optionId": 7,
-      "new": false,
+      "news": false,
       "sale": false,
+      "rate": 5,
       "brandId": 2
     },
     {
@@ -149,10 +165,12 @@
       ],
       "cpu": "Apple Bionic A13",
       "price": 14900000,
+      "oldPrice": 15200000,
       "optionId": 6,
-      "new": false,
+      "news": false,
       "sale": true,
-      "brandId": 2
+      "brandId": 2,
+      "rate": 4
     },
     {
       "id": 10,
@@ -163,10 +181,12 @@
       ],
       "cpu": "Apple Bionic A13",
       "price": 17900000,
+      "oldPrice": 18350000,
       "optionId": 6,
-      "new": false,
+      "news": false,
       "sale": true,
-      "brandId": 2
+      "brandId": 2,
+      "rate": 4
     },
     {
       "id": 11,
@@ -177,10 +197,12 @@
       ],
       "cpu": "Exynos 2100",
       "price": 17990000,
+      "oldPrice": 18500000,
       "optionId": 6,
-      "new": true,
+      "news": true,
       "sale": true,
-      "brandId": 1
+      "brandId": 1,
+      "rate": 4
     },
     {
       "id": 12,
@@ -191,10 +213,12 @@
       ],
       "cpu": "Exynos 2100",
       "price": 25990000,
+      "oldPrice": 26450000,
       "optionId": 6,
-      "new": true,
+      "news": true,
       "sale": true,
-      "brandId": 1
+      "brandId": 1,
+      "rate": 5
     },
     {
       "id": 13,
@@ -205,10 +229,12 @@
       ],
       "cpu": "Qualcomm Snapdragon 888",
       "price": 44000000,
+      "oldPrice": 0,
       "optionId": 9,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 1
+      "brandId": 1,
+      "rate": 4
     },
     {
       "id": 14,
@@ -220,10 +246,12 @@
       ],
       "cpu": "Qualcomm Snapdragon 888",
       "price": 24000000,
+      "oldPrice": 0,
       "optionId": 8,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 1
+      "brandId": 1,
+      "rate": 4
     },
     {
       "id": 15,
@@ -234,10 +262,12 @@
       ],
       "cpu": "Mediatek Demensity 900",
       "price": 12490000,
+      "oldPrice": 0,
       "optionId": 5,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 8
+      "brandId": 8,
+      "rate": 3
     },
     {
       "id": 16,
@@ -248,10 +278,12 @@
       ],
       "cpu": "Snapdragon 888",
       "price": 26500000,
+      "oldPrice": 0,
       "optionId": 6,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 8
+      "brandId": 8,
+      "rate": 5
     },
     {
       "id": 17,
@@ -262,10 +294,12 @@
       ],
       "cpu": "Snapdragon 765G",
       "price": 10450000,
+      "oldPrice": 0,
       "optionId": 6,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 8
+      "brandId": 8,
+      "rate": 3
     },
     {
       "id": 18,
@@ -276,10 +310,12 @@
       ],
       "cpu": "Snapdragon 888+",
       "price": 21990000,
+      "oldPrice": 0,
       "optionId": 7,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 3
+      "brandId": 3,
+      "rate": 5
     },
     {
       "id": 19,
@@ -290,10 +326,12 @@
       ],
       "cpu": "Dimensity 1200",
       "price": 6450000,
+      "oldPrice": 0,
       "optionId": 4,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 5
+      "brandId": 5,
+      "rate": 5
     },
     {
       "id": 20,
@@ -304,10 +342,12 @@
       ],
       "cpu": "Dimensity 1200",
       "price": 5450000,
+      "oldPrice": 0,
       "optionId": 4,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 5
+      "brandId": 5,
+      "rate": 5
     },
     {
       "id": 21,
@@ -318,10 +358,12 @@
       ],
       "cpu": "Snapdragon 870",
       "price": 10450000,
+      "oldPrice": 0,
       "optionId": 5,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 5
+      "brandId": 5,
+      "rate": 5
     },
     {
       "id": 22,
@@ -332,10 +374,12 @@
       ],
       "cpu": "Snapdragon 65",
       "price": 8750000,
+      "oldPrice": 0,
       "optionId": 4,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 6
+      "brandId": 6,
+      "rate": 4
     },
     {
       "id": 23,
@@ -346,10 +390,12 @@
       ],
       "cpu": "Snapdragon 888",
       "price": 12550000,
+      "oldPrice": 0,
       "optionId": 6,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 6
+      "brandId": 6,
+      "rate": 4
     },
     {
       "id": 24,
@@ -360,10 +406,12 @@
       ],
       "cpu": " Dimensity 800U 5G",
       "price": 9450000,
+      "oldPrice": 9900000,
       "optionId": 4,
-      "new": false,
+      "news": false,
       "sale": true,
-      "brandId": 4
+      "brandId": 4,
+      "rate": 3
     },
     {
       "id": 25,
@@ -374,10 +422,12 @@
       ],
       "cpu": "Snapdragon 460",
       "price": 2790000,
+      "oldPrice": 0,
       "optionId": 3,
-      "new": true,
+      "news": true,
       "sale": false,
-      "brandId": 7
+      "brandId": 7,
+      "rate": 2
     }
   ],
   "brands": [

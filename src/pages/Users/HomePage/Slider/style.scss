@@ -1,0 +1,17 @@
+@import '../../../../assets/scss/index.scss';
+.slick-prev {
+  z-index: 1;
+  left: 1rem;
+  &:before {
+    font-size: 3rem;
+    opacity: 1;
+  }
+}
+.slick-next {
+  z-index: 1;
+  right: 2rem;
+  &:before {
+    font-size: 3rem;
+    opacity: 1;
+  }
+}

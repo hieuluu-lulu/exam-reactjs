@@ -1,6 +1,18 @@
 @import '../../../assets/scss/index.scss';
 .home {
   margin: 1.5rem 0 2rem;
+
+  &__sale {
+    width: 100%;
+    padding: 2rem 0;
+    background: $light-blue;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    &-title {
+      font-style: italic;
+      font-weight: 800;
+    }
+  }
 }
 .item-slide {
   width: 100%;

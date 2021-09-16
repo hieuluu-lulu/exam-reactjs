@@ -22,6 +22,7 @@ const productReducer = createReducer(initialState, {
   [SUCCESS(PRODUCT_TYPES.GET_PRODUCT_NEW)]: (state, action) => {
     return {
       ...state,
+      load: false,
       productNew: action.payload,
     };
   },

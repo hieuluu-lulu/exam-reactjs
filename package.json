@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.6.4",
     "@reduxjs/toolkit": "^1.6.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -60,6 +61,7 @@
     "lint-staged": "^11.1.2",
     "nodemon": "^2.0.12",
     "sass": "^1.40.1",
-    "sass-loader": "^12.1.0"
+    "sass-loader": "^12.1.0",
+    "slick-carousel": "^1.8.1"
   }
 }

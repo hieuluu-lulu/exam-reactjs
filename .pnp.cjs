@@ -53,6 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["moment", "npm:2.29.1"],
             ["node-sass", "npm:6.0.1"],
             ["nodemon", "npm:2.0.12"],
+            ["prettier", "npm:2.4.1"],
             ["qs", "npm:6.10.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:17.0.2"],
@@ -16681,6 +16682,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["moment", "npm:2.29.1"],
             ["node-sass", "npm:6.0.1"],
             ["nodemon", "npm:2.0.12"],
+            ["prettier", "npm:2.4.1"],
             ["qs", "npm:6.10.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:9231d91d2c17fa7656807491d89094424640eccf6b970b78d1510ffcce0a71aee046fb2b4074d61bd3f9aeb82a3a072d455b7c7a8759f119c8efae5228486a34#npm:17.0.2"],
@@ -17786,6 +17788,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prepend-http-npm-2.0.0-e1fc4332f2-7694a95254.zip/node_modules/prepend-http/",
           "packageDependencies": [
             ["prepend-http", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["prettier", [
+        ["npm:2.4.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.4.1-623aac91ee-cc6830588b.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.4.1"]
           ],
           "linkType": "HARD",
         }]

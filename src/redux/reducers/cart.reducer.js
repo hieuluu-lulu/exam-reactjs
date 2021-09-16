@@ -24,6 +24,7 @@ const cartReducer = createReducer(cartState, {
         ...cartData[cartIndex],
         quantity: cartData[cartIndex].quantity + action.payload.quantity,
       });
+    
 
       LocalStorage.setCart({
         cartData: cartData,
@@ -95,16 +96,12 @@ const cartReducer = createReducer(cartState, {
   },
   [REQUEST(CART_TYPES.DELETE_PRODUCT_IN_CART)]: (state, action) => {
     let newCartData = [...state.cartData];
-    let newTotalCost = state.totalCost;
-    let newCartNumber = state.cartNumber;
+          let newTotalCost = state.totalCost;
+          let newCartNumber = state.cartNumber;
     const newCart = newCartData.filter((item) => item.id !== action.payload.id);
-    newTotalCost -= action.payload.price * action.payload.quantity;
+           newTotalCost -= action.payload.price * action.payload.quantity;
     newCartNumber -= 1;
-    LocalStorage.setCart({
-      cartData: newCart,
-      totalCost: newTotalCost,
-      cartNumber: newCartNumber,
-    });
+  LocalStorage.removeCart()
 
     return { ...state, cartData: newCart, totalCost: newTotalCost, cartNumber: newCartNumber };
   },

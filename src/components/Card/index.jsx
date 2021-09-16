@@ -26,7 +26,7 @@ const ProductItem = ({ data }) => {
       addToCart({
         ...item,
         quantity: 1,
-      })
+      }),
     );
   };
   return (

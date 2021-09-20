@@ -6,10 +6,11 @@ const initialState = {
   productData: [],
   productSale: [],
   productNew: [],
+  brand: [],
   pagination: {
     currentPage: 1,
     total: 1,
-    limit: 8,
+    limit: 12,
   },
 };
 const productReducer = createReducer(initialState, {
@@ -61,7 +62,7 @@ const productReducer = createReducer(initialState, {
     return {
       ...state,
       load: false,
-      productData: action.payload,
+      productData: action.payload.data,
       params: action.payload.params,
       pagination: {
         ...state.pagination,
@@ -74,6 +75,15 @@ const productReducer = createReducer(initialState, {
       ...state,
       error: action.payload,
     };
+  },
+  [REQUEST(PRODUCT_TYPES.GET_BRAND)]: (state, action) => {
+    return { ...state, load: true };
+  },
+  [SUCCESS(PRODUCT_TYPES.GET_BRAND)]: (state, action) => {
+    return { ...state, load: false, brand: action.payload };
+  },
+  [FAILURE(PRODUCT_TYPES.GET_BRAND)]: (state, action) => {
+    return { ...state, error: action.payload };
   },
 });
 

@@ -26,7 +26,7 @@ const ProductItem = ({ data }) => {
       addToCart({
         ...item,
         quantity: 1,
-      }),
+      })
     );
   };
   return (
@@ -55,6 +55,7 @@ const ProductItem = ({ data }) => {
           </span>
         </div>
         {news && <span className="product-item--new ">New</span>}
+        {oldPrice !== 0 && <span className="product-item--new">Sale</span>}
         {oldPrice !== 0 && <span className="product-item--sale"> - {sales} %</span>}
       </div>
       <div className="product-item__content">

@@ -1,0 +1,15 @@
+.product {
+  padding: 3rem 0;
+
+  &__list-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+
+    .filter__title {
+      margin: 0 2rem 0 0;
+      line-height: 1;
+    }
+  }
+}

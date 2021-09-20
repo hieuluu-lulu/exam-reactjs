@@ -337,10 +337,10 @@
       "id": 20,
       "name": "Realme Q3 Pro",
       "img": [
-        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/realme-gt-neo-hop-pk.jpg",
-        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/realme-gt-neo-hop.jpg"
+        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/04/realme-q3-pro-3-2.jpg",
+        "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/04/realme-q3-pro-2-2.jpg"
       ],
-      "cpu": "Dimensity 1200",
+      "cpu": "Dimensity 1100",
       "price": 5450000,
       "oldPrice": 0,
       "optionId": 4,
@@ -372,7 +372,7 @@
         "https://fptshop.com.vn/Uploads/Originals/2020/2/11/637170293625998339_oneplus-8-1.png",
         "https://cdn.tgdd.vn/Files/2020/04/15/1249254/oneplus-8-interstellar-glow-back-5_800x480.jpg"
       ],
-      "cpu": "Snapdragon 65",
+      "cpu": "Snapdragon 865",
       "price": 8750000,
       "oldPrice": 0,
       "optionId": 4,
@@ -433,35 +433,53 @@
   "brands": [
     {
       "id": 1,
-      "brand": "Samsung"
+      "brand": "Samsung",
+      "img": "https://cdn.tgdd.vn/Brand/1/samsungnew-220x48-1.png"
     },
     {
       "id": 2,
-      "brand": "Apple"
+      "brand": "Apple",
+      "img": "https://cdn.tgdd.vn/Brand/1/logo-iphone-220x48.png"
     },
     {
       "id": 3,
-      "brand": "Xiaomi"
+      "brand": "Xiaomi",
+      "img": "https://cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png"
     },
     {
       "id": 4,
-      "brand": "Vivo"
+      "brand": "Vivo",
+      "img": "https://cdn.tgdd.vn/Brand/1/Vivo42-b_50.jpg"
     },
     {
       "id": 5,
-      "brand": "Realme"
+      "brand": "Realme",
+      "img": "https://cdn.tgdd.vn/Brand/1/Realme42-b_37.png"
     },
     {
       "id": 6,
-      "brand": "One Plus+"
+      "brand": "One Plus+",
+      "img": "https://cdn.tgdd.vn/Brand/1/OnePlus42-b_36.jpg"
     },
     {
       "id": 7,
-      "brand": "Nokia"
+      "brand": "Nokia",
+      "img": "https://cdn.tgdd.vn/Brand/1/Nokia42-b_21.jpg"
     },
     {
       "id": 8,
-      "brand": "Oppo"
+      "brand": "Oppo",
+      "img": "https://cdn.tgdd.vn/Brand/1/OPPO42-b_5.jpg"
+    },
+    {
+      "id": 9,
+      "brand": "VSmart",
+      "img": "https://cdn.tgdd.vn/Brand/1/Vsmart42-b_40.png"
+    },
+    {
+      "id": 10,
+      "brand": "Huawei",
+      "img": "https://cdn.tgdd.vn/Brand/1/Huawei522-b_4.jpg"
     }
   ],
   "options": [

@@ -29,18 +29,23 @@ function App() {
             exact
             path="/login"
             component={React.lazy(() => import('./pages/Login/Login'))}
-          ></PublicLayout>
+          />
           <PublicLayout
             exact
             path="/register"
             component={React.lazy(() => import('./pages/Register/Register'))}
-          ></PublicLayout>
+          />
           \
           <PublicLayout
             exact
             path="/"
             component={React.lazy(() => import('./pages/Users/HomePage/HomePage'))}
-          ></PublicLayout>
+          />
+          <PublicLayout
+            exact
+            path="/shop"
+            component={React.lazy(() => import('./pages/Users/Product/Product'))}
+          />
         </Switch>
       </Router>
     </Suspense>

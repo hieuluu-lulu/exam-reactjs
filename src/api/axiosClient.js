@@ -21,7 +21,13 @@ API.interceptors.request.use((req) => {
   return req;
 });
 API.interceptors.response.use((response) => {
-  if (response && response.data) {
+  if (response && response.data && response.config.method === 'get') {
+    return {
+      total: Number(response.headers['x-total-count']),
+      data: response.data,
+    };
+  }
+  if (response && response.data && response.config.method === 'post') {
     return response.data;
   }
   return response;

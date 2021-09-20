@@ -1,0 +1,32 @@
+@import '../../assets/scss/index.scss';
+.brand {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem 0;
+  &__item {
+    padding: 1rem 1.3rem;
+    border: 1.8px solid $border-color;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 1rem 1rem 0;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-size: 1.6rem;
+
+    &:hover {
+      border-color: $blue;
+    }
+
+    img {
+      width: auto;
+      height: 2.2rem;
+    }
+  }
+}
+
+.active {
+  border-color: $blue;
+}
